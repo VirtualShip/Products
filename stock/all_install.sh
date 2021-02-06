@@ -1,0 +1,32 @@
+echo -e "\033[34;1;4mOrdering all products in stock... \033[0m"
+sleep 2
+echo " "
+ship order a52dec
+echo " "
+ship order aalib
+echo " "
+ship order aardvark
+echo " "
+ship order abcm2ps
+echo " "
+ship order abcmidi
+echo " "
+ship order ack
+echo " "
+ship order acme
+echo " "
+ship order aescrypt
+echo " "
+ship order akamai
+echo " "
+ship order ansifilter
+echo " "
+ship order automake
+echo " "
+ship order bash-completion
+echo " "
+ship order bbedit
+echo " "
+ship order binutils
+echo " "
+ship order bison
