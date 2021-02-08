@@ -7,15 +7,11 @@ maintain () {
 	echo -e "\033[31;1;4m🚚 Shipping package... \033[0m"
 	sleep 1
 	
-	rm -rf ship
-	rm -rf gdrived
-	rm -rf -d stock
-	rm -rf -d return
 	rm -rf -d man
-	rm -rf README.md
-	rm -rf LICENSE
-	mv /usr/local/Warehouse/refurbish/maintain.sh /usr/local/Warehouse/maintain.sh
-	rm -rf -d refurbish
+	rm -f LICENSE
+	rm -f README.md
+	rm -f list.txt
+	rm -f changekey
  	
 	echo -e "\033[33;1;4m🏭 Package arrived at factory... \033[0m"
 	sleep 1
