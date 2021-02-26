@@ -45,8 +45,6 @@ libpng_update () {
 	rm -rf /usr/local/Garage/share/man/man3/libpngpf.3
 	rm -rf /usr/local/Garage/share/man/man5/png.5
 	
-	fi
-	
 	echo -e "\033[33;1;4m🏭 Package arrived at factory... \033[0m"
 	sleep 1
 	cd /usr/local/Garage
@@ -76,6 +74,7 @@ libpng_update () {
 	./test
 	rm test
 	echo -e "\033[92;1;4m🏡 Package received! libpng succesfully refurbished. \033[0m"
+	fi
 }
 
 
