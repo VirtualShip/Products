@@ -8,6 +8,7 @@ maintain () {
 	sleep 1
 	
 	rm -rf -d man
+	rm -rf -d working
 	rm -f LICENSE
 	rm -f README.md
 	rm -f list.txt
